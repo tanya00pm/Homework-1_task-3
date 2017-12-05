@@ -20,14 +20,14 @@ public class InvertClass {
 
     }
 
-    public void PrintArray() {
+    public void printArray() {
         // print current array method
 
         for (int i=0; i< arr.length; i++)
             System.out.println(Double.toString(arr[i]));
     }
 
-    public int[] Invert() {
+    public int[] runInvert() {
         // invert array method
 
         int[] result_arr = new int[arr.length];

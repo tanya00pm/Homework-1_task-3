@@ -20,11 +20,11 @@ public class InvertArrayApplication {
 
         InvertClass cl = new InvertClass(20, 55, 7);
         System.out.println("Initial array:");
-        cl.PrintArray();
+        cl.printArray();
 
         System.out.println("\nResult array:");
 
-        int mas[] =  cl.Invert();
+        int mas[] =  cl.runInvert();
         this.PrintArray(mas);
     }
 }
