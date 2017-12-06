@@ -9,7 +9,7 @@ public class InvertArrayApplication {
         app.startApplication();
     }
 
-    public void PrintArray(int a[]) {
+    public void printArray(int a[]) {
         // print array on console method
 
         for (int i=0; i< a.length; i++)
@@ -25,6 +25,6 @@ public class InvertArrayApplication {
         System.out.println("\nResult array:");
 
         int mas[] =  cl.runInvert();
-        this.PrintArray(mas);
+        this.printArray(mas);
     }
 }
